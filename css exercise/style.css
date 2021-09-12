@@ -3,15 +3,71 @@ h1 {
 }
 
 body {
-  background-color:aquamarine;
+  padding-left:11em;
+  background-color:burlywood;
   font-family:'Times New Roman', Times, serif
 }
+
+P {
+  background-color: darkgray; color:darkgreen
+}
+
+ul.navbar{
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  position:absolute;
+  top:2em;
+  left:1em;
+  width:9em
+}
+
+ul.navbar li{
+  background-color:rosybrown;
+  margin:1em 1em 1em 1em;
+  padding:0.5em;
+  border-right:1em solid black
+}
+
+ul.navbar li:hover{
+  background-color: silver;
+}
+ ul.navbar a{
+   text-decoration: none;
+ }
+
+
+ a:link{
+   color:darkviolet
+ }
+ a:visited{
+   color:darkslategray
+ }
 
 .mother {
   border-style:solid;
   border-width:10px;
+  padding:10px; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightskyblue;
 }
 
-.daughter{
+.mother .daughter{
+  border-style:solid;
+  border-width:10px;
+  padding:10px;
+  margin-bottom: 5px;
+  background-color: lightcoral;
+}
 
+#lisa, #mary{
+  color:mediumspringgreen;
+  left: 50px;
+  top: 50px;
+}
+
+#jane {
+  left: 50px;
+  top:50px;
+  position: fixed;
 }
